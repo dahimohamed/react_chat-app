@@ -1,3 +1,4 @@
+import React from "react";
 import { auth } from "./firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 import "./App.css";
@@ -5,7 +6,7 @@ import NavBar from "./components/NavBar";
 import ChatBox from "./components/ChatBox";
 import Welcome from "./components/Welcome";
 
-function App() {
+export const  App = () => {
   const [user] = useAuthState(auth);
 
   return (
@@ -21,5 +22,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
