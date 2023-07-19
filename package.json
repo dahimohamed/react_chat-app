@@ -1,7 +1,7 @@
 {
-  "name": "react_chat",
+  "name": "react_chat-app",
   "version": "0.1.0",
-  "homepage": "https://dahimohamed.github.io/react_chat",
+  "homepage": "https://dahimohamed.github.io/react_chat-app",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
